@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Factories\" />
+    <None Remove="Models\" />
+    <None Remove="Strategies\" />
+    <None Remove="Enums\" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Factories\" />
+    <Folder Include="Models\" />
+    <Folder Include="Strategies\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+</Project>
